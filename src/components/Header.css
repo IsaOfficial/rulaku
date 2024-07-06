@@ -1,0 +1,54 @@
+.header {
+  position: fixed; /* Membuat header melayang */
+  display: flex;
+  top: 0;
+  left: 0;
+  width: 96%; /* Menggunakan lebar penuh */
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.6); /* Putih agak transparan */
+  padding: 1rem 2rem;
+  color: #001f3f; /* Warna teks */
+  z-index: 10; /* Pastikan header di atas konten lainnya */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Opsional: bayangan untuk menonjolkan header */
+}
+
+.logo img {
+  height: 50px; /* Sesuaikan ukuran logo */
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links a {
+  color: rgb(4, 4, 96);
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #DC5B5B;
+}
+
+.nav-links a.active {
+  color: #DC5B5B;
+}
+
+.nav-links .outline {
+  border: 2px solid #DC5B5B; /* Warna border */
+  border-radius: 20px;
+  padding: 0.5rem 1rem;
+  color: #001f3f; /* Warna teks */
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.nav-links .outline:hover {
+  background-color: #DC5B5B; /* Latar belakang saat di-hover */
+  color: white; /* Warna teks saat di-hover */
+}
