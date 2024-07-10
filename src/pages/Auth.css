@@ -149,6 +149,7 @@
     }
 
   .login-container {
-    width: 250px;
+    padding: 1rem 1rem 2rem 1rem;
+    width: 280px;
   }
 }
