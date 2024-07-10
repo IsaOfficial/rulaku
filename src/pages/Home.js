@@ -57,7 +57,6 @@ const Home = () => {
                 <div className="service-content">
                     <h3>Bibit Rumput Laut</h3>
                     <p>Cek bibit rumput laut unggul.</p>
-                    <br></br>
                     <a href="#" className="service-button">Cek Sekarang</a>
                 </div>
             </div>

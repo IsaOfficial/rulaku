@@ -4,7 +4,7 @@ import logo from './../assets/logo.png'; // Ganti dengan path logo Anda
 
 const Register = () => {
   return (
-    <div className="login-page">
+    <div className="register-page">
         <div className="logo-circle">
           <img src={logo} alt="Logo" />
         </div>

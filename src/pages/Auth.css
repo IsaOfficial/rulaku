@@ -8,8 +8,21 @@
   justify-content: flex-start;
   align-items: center;
   background-attachment: fixed; /* Menjaga background tetap saat di-scroll */
-  padding: 8rem 0 5rem 0; /* Menambahkan jarak ke tepi atas dan bawah */
+  padding: 8rem 2rem 0 2rem; /* Menambahkan jarak ke tepi atas dan bawah */
   }
+
+  .register-page {
+    background-image: url('./../assets/rumput_laut.png');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-attachment: fixed; /* Menjaga background tetap saat di-scroll */
+    padding: 8rem 2rem 8rem 2rem; /* Menambahkan jarak ke tepi atas dan bawah */
+    }
 
   .login-container {
     background-color: rgba(255, 255, 255, 0.8);
@@ -124,3 +137,7 @@
     text-decoration: underline;
     color: #007bff;
   }
+
+  /* Media queries untuk tampilan mobile */
+@media (max-width: 800px) {
+}
