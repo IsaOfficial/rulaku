@@ -8,7 +8,7 @@
   justify-content: flex-start;
   align-items: center;
   background-attachment: fixed; /* Menjaga background tetap saat di-scroll */
-  padding: 8rem 2rem 0 2rem; /* Menambahkan jarak ke tepi atas dan bawah */
+  padding: 8rem 0 0 0; /* Menambahkan jarak ke tepi atas dan bawah */
   }
 
   .register-page {
@@ -21,7 +21,7 @@
     justify-content: flex-start;
     align-items: center;
     background-attachment: fixed; /* Menjaga background tetap saat di-scroll */
-    padding: 8rem 2rem 8rem 2rem; /* Menambahkan jarak ke tepi atas dan bawah */
+    padding: 8rem 0 8rem 0; /* Menambahkan jarak ke tepi atas dan bawah */
     }
 
   .login-container {
@@ -140,7 +140,15 @@
 
   /* Media queries untuk tampilan mobile */
 @media (max-width: 800px) {
+  .login-page {
+    padding: 8rem 1rem 0 1rem; /* Menambahkan jarak ke tepi atas dan bawah */
+  }
+  
+  .register-page {
+    padding: 8rem 1rem 8rem 1rem; /* Menambahkan jarak ke tepi atas dan bawah */
+    }
+
   .login-container {
-    width: 200px;
+    width: 230px;
   }
 }
