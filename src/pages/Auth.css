@@ -145,10 +145,10 @@
   }
   
   .register-page {
-    padding: 8rem 1rem 8rem 1rem; /* Menambahkan jarak ke tepi atas dan bawah */
+    padding: 8rem 1rem 0 1rem; /* Menambahkan jarak ke tepi atas dan bawah */
     }
 
   .login-container {
-    width: 230px;
+    width: 250px;
   }
 }
