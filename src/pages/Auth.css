@@ -142,16 +142,16 @@
 @media (max-width: 800px) {
   .login-page {
     padding: 8rem 1rem 0 1rem; /* Menambahkan jarak ke tepi atas dan bawah */
-    height: 80vh;
+    height: 70vh;
   }
   
   .register-page {
-    padding: 8rem 1rem 0 1rem; /* Menambahkan jarak ke tepi atas dan bawah */
+    padding: 8rem 1.2rem 0 1.2rem; /* Menambahkan jarak ke tepi atas dan bawah */
   }
 
   .login-container {
-    padding: 1rem 1rem 2rem 1rem;
-    width: 280px;
+    padding: 1rem 1.2rem 2rem 1.2rem;
+    width: 300px;
   }
 
   .login-options a {

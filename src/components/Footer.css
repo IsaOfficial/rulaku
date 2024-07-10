@@ -55,4 +55,8 @@
   .footer-section {
     flex-direction: column;
   }
+
+  .license p {
+    font-size: 1rem;
+  }
 }
