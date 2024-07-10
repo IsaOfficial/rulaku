@@ -140,4 +140,7 @@
 
   /* Media queries untuk tampilan mobile */
 @media (max-width: 800px) {
+  .login-container {
+    width: 200px;
+  }
 }
