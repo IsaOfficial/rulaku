@@ -65,7 +65,7 @@ const Home = () => {
                 <div className="service-content">
                     <h3>Konsultasi dengan Ahli</h3>
                     <p>Konsultasikan budidaya Anda dengan ahli rumput laut Indonesia.</p>
-                    <a href="#" className="service-button">Konsultasi Sekarang</a>
+                    <a href="/konsultasi-dengan-ahli" className="service-button">Konsultasi Sekarang</a>
                 </div>
             </div>
             <div className="service-container">

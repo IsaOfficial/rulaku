@@ -16,7 +16,7 @@ const products = [
 
 const PasarRumputLaut = () => {
   return (
-    <div className="pendaftaran-kelompok-page">
+    <div className="pasar-rumput-laut">
       <header className="pendaftaran-kelompok-header">
         <h1>Pasar Rumput Laut</h1>
       </header>

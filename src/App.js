@@ -9,6 +9,7 @@ import './App.css';
 import PendataanPembudidaya from './pages/PendataanPembudidaya';
 import PendaftaranKelompok from './pages/PendaftaranKelompok';
 import PasarRumputLaut from './pages/PasarRumputLaut';
+import KonsultasiAhli from './pages/KonsultasiAhli';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
             <Route path="/pendataan-pembudidaya" element={<PendataanPembudidaya />} />
             <Route path="/pendaftaran-kelompok" element={<PendaftaranKelompok />} />
             <Route path="/pasar-rumput-laut" element={<PasarRumputLaut />} />
+            <Route path="/konsultasi-dengan-ahli" element={<KonsultasiAhli />} />
           </Routes>
         </main>
         <Footer />

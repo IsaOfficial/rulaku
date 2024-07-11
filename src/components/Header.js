@@ -31,8 +31,8 @@ const Header = () => {
       <nav>
         <ul className="nav-links">
           <li><Link to="/" className="active">Home</Link></li>
-          <li><a href="/">Layanan</a></li>
-          <li><a href="/">Berita</a></li>
+          <li><a href="/#layanan">Layanan</a></li>
+          <li><a href="/#berita">Berita</a></li>
           <li><a href="#kontak">Kontak</a></li>
           <li><Link to="/register" className="outline">Daftar</Link></li>
           <li><Link to="/login" className="outline">Login</Link></li>

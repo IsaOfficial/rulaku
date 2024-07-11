@@ -1,14 +1,14 @@
-.pasar-rumput-laut {
+.konsultasi-ahli-page {
     padding: 2rem;
     text-align: center;
   }
   
-  .pasar-rumput-laut h1 {
+  .konsultasi-ahli-page h1 {
     font-size: 2.5rem;
     margin-bottom: 1rem;
   }
   
-  .pasar-rumput-laut h3 {
+  .konsultasi-ahli-page h3 {
     font-size: 1.5rem;
     margin-bottom: 2rem;
   }
@@ -26,26 +26,6 @@
     position: relative; /* Tambahkan posisi relatif */
   }
   
-  .search-category {
-    position: relative;
-    display: flex;
-    align-items: center;
-  }
-  
-  .search-category select {
-    appearance: none;
-    border: none;
-    background-color: transparent;
-    font-size: 1rem;
-    padding: 0.5rem 2rem 0.5rem 0.5rem;
-    cursor: pointer;
-  }
-  
-  .dropdown-icon {
-    position: absolute;
-    right: 0.5rem;
-    pointer-events: none;
-  }
   
   .search-input {
     flex-grow: 1;
@@ -81,14 +61,14 @@
   }
 
   
-  .product-grid {
+  .ahli-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 3rem;
     padding: 2rem;
   }
   
-  .product-container {
+  .ahli-container {
     background-color: #f9f9f9;
     border-radius: 30px;
     align-items: center;
@@ -99,13 +79,13 @@
     height: 100%; /* Mengisi penuh tinggi kontainer */
   }
   
-  .product-image {
+  .ahli-image {
     width: 100%;
     height: auto;
     border-radius: 8px;
   }
   
-.product-content {
+.ahli-content {
     background-color: #92E3A9; /* Warna hijau */
     margin-top: -5rem; /* Membuat konten hijau di bagian bawah */
     width: 100%; /* Lebar penuh */
@@ -113,18 +93,18 @@
     text-align: center;
 }
 
-  .product-container h3 {
+  .ahli-container h3 {
     font-size: 1.5rem;
     margin-bottom: 0.5rem;
   }
   
-  .product-container p {
+  .ahli-container p {
     font-size: 1rem;
     margin-bottom: 2rem;
     color: #555;
   }
   
-  .product-button {
+  .ahli-button {
     display: inline-block;
     background-color: #DC5B5B;
     color: white;
@@ -139,17 +119,17 @@
     border: none;
   }
   
-  .product-button:hover {
+  .ahli-button:hover {
     background-color: #f08080;
   }
 
   @media (max-width: 800px) {
-    .product-grid {
+    .ahli-grid {
         grid-template-columns: repeat(1, 1fr);
         padding: 1rem;
     }
 
-    .product-button {
+    .ahli-button {
         font-size: 0.8rem;
         padding: 0.5rem 1.2rem;
         margin-bottom: 1.5rem;
