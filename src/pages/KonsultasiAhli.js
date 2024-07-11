@@ -7,9 +7,9 @@ import ahli2 from './../assets/ahli/alex_horf.jpg'; // Sesuaikan dengan path gam
 import ahli3 from './../assets/ahli/halim_kusuma.jpg'; // Sesuaikan dengan path gambar produk
 
 const ahli = [
-  { id: 1, name: 'Tali Tambang 50 PE', description: 'Konsultasikan budidaya rumput laut anda bersama para ahli', image: ahli1 },
-  { id: 2, name: 'Tali Tambang 50 PE', description: 'Konsultasikan budidaya rumput laut anda bersama para ahli', image: ahli2 },
-  { id: 3, name: 'Tali Tambang 50 PE', description: 'Konsultasikan budidaya rumput laut anda bersama para ahli', image: ahli3 },
+  { id: 1, name: 'Prof. Darmawan, S.Pi., M.Pi.', description: 'Konsultasikan budidaya rumput laut anda bersama para ahli', image: ahli1 },
+  { id: 2, name: 'Prof. Alex Horf, Ph.d', description: 'Konsultasikan budidaya rumput laut anda bersama para ahli', image: ahli2 },
+  { id: 3, name: 'Prof. Halim Kusuma, Ph.d', description: 'Konsultasikan budidaya rumput laut anda bersama para ahli', image: ahli3 },
   // Tambahkan lebih banyak produk sesuai kebutuhan
 ];
 
@@ -32,8 +32,10 @@ const KonsultasiAhli = () => {
           <div key={ahli.id} className="ahli-container">
             <img src={ahli.image} alt={ahli.name} className="ahli-image" />
             <div className="ahli-content">
-              <h3>{ahli.name}</h3>
-              <p>{ahli.description}</p>
+                <div className='text-container'>
+                    <h3>{ahli.name}</h3>
+                    <p>{ahli.description}</p>
+                </div>
               <button className="ahli-button">Hubungi Sekarang</button>
             </div>
           </div>

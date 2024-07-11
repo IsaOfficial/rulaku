@@ -47,8 +47,10 @@ const PasarRumputLaut = () => {
           <div key={product.id} className="product-container">
             <img src={product.image} alt={product.name} className="product-image" />
             <div className="product-content">
-              <h3>{product.name}</h3>
-              <p>{product.description}</p>
+              <div className='text-container'>
+                <h3>{product.name}</h3>
+                <p>{product.description}</p>
+              </div>
               <button className="product-button">Lihat Detail</button>
             </div>
           </div>

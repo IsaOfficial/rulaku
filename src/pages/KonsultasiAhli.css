@@ -87,10 +87,15 @@
   
 .ahli-content {
     background-color: #92E3A9; /* Warna hijau */
-    margin-top: -5rem; /* Membuat konten hijau di bagian bawah */
+    margin-top: -8rem; /* Membuat konten hijau di bagian bawah */
     width: 100%; /* Lebar penuh */
     border-radius: 30px;
     text-align: center;
+}
+
+.text-container {
+    width: 95%;
+    padding: 0 auto;
 }
 
   .ahli-container h3 {
@@ -127,6 +132,16 @@
     .ahli-grid {
         grid-template-columns: repeat(1, 1fr);
         padding: 1rem;
+    }
+
+    .ahli-content h3 {
+        font-size: 1rem;
+        margin-bottom: 0.5rem;
+    }
+    
+    .ahli-content p {
+        font-size: 0.8rem;
+        margin-bottom: 1rem;
     }
 
     .ahli-button {
